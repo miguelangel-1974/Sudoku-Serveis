@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10" style="-fx-padding: 10;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.clientFX.CtrlRanking">
+    <Label text="Jugadors" />
+    <ListView fx:id="listRanking" style="-fx-control-inner-background-alt: -fx-control-inner-background;" mouseTransparent="true" focusTraversable="false" />
+    <Button text="Tornar a jugar" onAction="#playAgain" />
+</VBox>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox spacing="20" style="-fx-padding: 10;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.clientFX.CtrlGame">
+    <VBox spacing="10">
+        <Label fx:id="txtName" text="Juga:" />
+        <GridPane fx:id="gridBoard" />
+    </VBox>
+    <VBox spacing="10">
+        <Label text="Jugadors" />
+        <ListView fx:id="listPlayers" style="-fx-control-inner-background-alt: -fx-control-inner-background;" mouseTransparent="true" focusTraversable="false" />
+    </VBox>
+</HBox>
